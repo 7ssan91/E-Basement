@@ -1,0 +1,77 @@
+.title h4 {
+    font-size: 23.66px;
+    font-family: 'Roboto', arial, helvetica, sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+}
+
+.alert {
+    width: 100%;
+    /* width: calc(100% - 100px); */
+    margin: 0 auto;
+    padding: 1em;
+    color: white;
+    box-sizing: border-box;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #a0d081;
+    display: inline-block;
+  }
+  .alert img {
+    width: 32px;
+    height: 32px;
+    margin-right: .5rem!important;
+    display: inline-block;
+    border-radius: 5px; 
+}
+.alert p {
+    display: inline-block;
+    margin-left:44px;
+    padding-top: 5px; 
+   
+}
+.alert strong {
+    padding-left: 4px;
+    position: absolute;
+    margin: 13px 0 0 0px !important ;
+  
+}
+.alert {
+    transition: all .5s ease
+}
+.alert:hover {
+    background: #98cf74;
+}
+  
+ 
+ 
+
+    
+  /* Media Query */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}

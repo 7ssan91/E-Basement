@@ -1,0 +1,30 @@
+
+
+<div class="container-fluid notification">
+    <!-- Nitification title-->
+    <div class="row">
+        <div class="">
+            <div class="title">
+                <h4>Notifications</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--Notifications -->
+
+        <div class="row" *ngFor='let n of notification'>
+            <div class="alert " >
+                <img  [src]="n.imgurl" class="img">
+                    <strong>@{{n.from}}</strong> 
+                    <button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                    </button>
+                    <br>
+                 <p>
+                    {{n.content}}
+                </p>
+            </div>
+        </div>
+    </div>
+
+
